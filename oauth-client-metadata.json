@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>OAuth Client</title>
-</head>
-<body>
-    <h1>OAuth Client</h1>
-</body>
-</html>
+{
+  "client_id": "https://world-fantasia.github.io/bluesky_scroll_oauth/oauth-client-metadata.json",
+  "client_name": "Bluesky Scroll",
+  "client_uri": "https://world-fantasia.github.io/bluesky_scroll_oauth/",
+  "redirect_uris": [
+    "io.github.world-fantasia:/oauth/callback"
+  ],
+  "scope": "atproto transition:generic transition:chat.bsky",
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "application_type": "native",
+  "dpop_bound_access_tokens": true
+}
