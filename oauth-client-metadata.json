@@ -1,7 +1,7 @@
 {
-  "client_id": "https://world-fantasia.github.io/sky_scroll_oauth/oauth-client-metadata.json",
-  "client_name": "Sky Scroll",
-  "client_uri": "https://world-fantasia.github.io/sky_scroll_oauth/",
+  "client_id": "https://world-fantasia.github.io/eastrio_scroll_oauth/oauth-client-metadata.json",
+  "client_name": "Eastrio Scroll",
+  "client_uri": "https://world-fantasia.github.io/eastrio_scroll_oauth/",
   "redirect_uris": [
     "io.github.world-fantasia:/oauth/callback"
   ],
